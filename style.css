@@ -251,3 +251,72 @@ body{
     color: white;
     transition: 0.3s;
 }
+
+
+/*take class form*/
+.formbody{
+    background-color: rgba(116, 110, 255, 1);
+    height: 100vh;
+    overflow: hidden;
+}
+.linksclasspost{
+    width: 150px;
+    height:45px;
+    border-radius: 40px;
+    border: 3px solid rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+}
+.maindiv{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.firsthalfpostclass ,.secondhalfpostclass{
+    width: 50%;
+    height: 89%;
+    
+    display: flex;justify-content: center;align-items: center;
+    flex-direction: column;
+}
+.mainform{
+    height: 80%;
+    width: 500px;
+    background-color: aliceblue;
+    border-radius: 40px;
+    transform: translateY(-30px);
+    display: flex;justify-content: center;align-items: center;
+    flex-direction: column;
+}
+.inputs{
+    width: 85%;
+    padding-left: 5%;
+    padding-right: 2%;
+    height: 55px;
+    margin-top: 10px;
+    margin-bottom:10px ;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(232, 232, 232);
+    color: rgba(143, 143, 143, 1);
+    font-weight: 700;
+    font-size: 0.9rem;
+    border: 1px solid grey;
+
+}
+.submitbutton{
+    width: 40%;
+    height: 50px;
+    border: none;
+    background-color: rgba(116, 110, 255, 1);
+    border-radius: 20px;
+    color: white;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
