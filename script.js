@@ -56,3 +56,6 @@ var sender = function () {
 function topostclass() {
   window.location.assign('postclass.html');
 }
+function tonotes() {
+  window.location.assign('notes.html');
+}
