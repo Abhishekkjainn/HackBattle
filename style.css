@@ -43,6 +43,7 @@ body{
     background-color: rgba(0, 125, 254, 1);
     color: white;
     transition: 0.3s;
+    cursor: pointer;
 }
 
 /*Page 1*/

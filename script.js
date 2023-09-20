@@ -52,3 +52,7 @@ var sender = function () {
 
   return false;
 };
+
+function topostclass() {
+  window.location.assign('postclass.html');
+}
